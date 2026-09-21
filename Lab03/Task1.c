@@ -4,46 +4,41 @@
 #define		 I		 2.32
 #define		 S		 2.70
 int calculator()
-{
+{	
 	setlocale(LC_CTYPE, "RUS");
 	int num, num2;
-	printf("Ââåäèòå ÷èñëî: ");
+	printf("Введите число: ");
 	scanf("%d", &num);
-	printf("Ââåäåíî ÷èñëî A\n");
-	printf("Ââåäèòå åùå îäíî ÷èñëî: ");
+	printf("Введено число A\n");
+	printf("Введите еще одно число: ");
 	scanf("%d", &num2);
-	printf("Ââåäåíî ÷èñëî B\n");
-	printf("Ñóììà ÷èñåë B è A: %+d\nÐàçíîñòü ÷èñåë B è A: %+d\nÏðîèçâåäåíèå ÷èñåë B è A: %+d\n×àñòíîå ÷èñåë B è A: %+d\nÎñòàòîê îò äåëåíèÿ B íà A: %+d",num2+num,num2-num,num2*num,num2/num,num2%num);
+	printf("Введено число B\n");
+	printf("Сумма чисел B и A: %+d\nРазность чисел B и A: %+d\nПроизведение чисел B и A: %+d\nЧастное чисел B и A: %+d\nОстаток от деления B на A: %+d",num2+num,num2-num,num2*num,num2/num,num2%num);
+	return 0;
 }
 int inches_to_centimeters()
 {
 	int inch,inchi,inchs;
 	float result,result2,result3;
-	printf("Ââåäèòå çíà÷åíèå â äþéìàõ (àíãë): ");
+	printf("Введите значение в дюймах (англ): ");
 	scanf("%d", &inch);
-	printf("Ââåäèòå çíà÷åíèå â äþéìàõ (èñï): ");
+	printf("Введите значение в дюймах (исп): ");
 	scanf("%d", &inchi);
-	printf("Ââåäèòå çíà÷åíèå â äþéìàõ (ñòàðîëèò): ");
+	printf("Введите значение в дюймах (старолит): ");
 	scanf("%d", &inchs);
 	
 	result =D *inch;
 	result2 = I * inchi;
 	result3 = S * inchs;
-	printf("%d äþéìîâ (àíãëèéñêèõ) - ýòî %.1f ñì\n",inch,result);
-	printf("%d äþéìîâ (èñïàíñêèõ) - ýòî %.1f ñì\n", inchi, result2);
-	printf("%d äþéìîâ (ñòàðîëèòîâñêèõ) - ýòî %.1f ñì\n", inchs, result3);
-
+	printf("%d дюймов (английских) - это %.1f см\n",inch,result);
+	printf("%d дюймов (испанских) - это %.1f см\n", inchi, result2);
+	printf("%d дюймов (старолитовских) - это %.1f см\n", inchs, result3);
+	return 0;
 }
 
-int table()
-{
-	float a, b;
-	scanf("%f", &a);
-	scanf("%f", &b);
-
-}
 int main()
 {
-	//calculator();
-	//inches_to_centimeters();
+	
+	calculator();
+
 }
