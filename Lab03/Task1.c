@@ -5,32 +5,33 @@
 #define		 S		 2.70
 int calculator()
 {
+	setlocale(LC_CTYPE, "RUS");
 	int num, num2;
-	printf("Введите число: ");
+	printf("Г‚ГўГҐГ¤ГЁГІГҐ Г·ГЁГ±Г«Г®: ");
 	scanf("%d", &num);
-	printf("Введено число A\n");
-	printf("Введите еще одно число: ");
+	printf("Г‚ГўГҐГ¤ГҐГ­Г® Г·ГЁГ±Г«Г® A\n");
+	printf("Г‚ГўГҐГ¤ГЁГІГҐ ГҐГ№ГҐ Г®Г¤Г­Г® Г·ГЁГ±Г«Г®: ");
 	scanf("%d", &num2);
-	printf("Введено число B\n");
-	printf("Сумма чисел B и A: %+d\nРазность чисел B и A: %+d\nПроизведение чисел B и A: %+d\nЧастное чисел B и A: %+d\nОстаток от деления B на A: %+d",num2+num,num2-num,num2*num,num2/num,num2%num);
+	printf("Г‚ГўГҐГ¤ГҐГ­Г® Г·ГЁГ±Г«Г® B\n");
+	printf("Г‘ГіГ¬Г¬Г  Г·ГЁГ±ГҐГ« B ГЁ A: %+d\nГђГ Г§Г­Г®Г±ГІГј Г·ГЁГ±ГҐГ« B ГЁ A: %+d\nГЏГ°Г®ГЁГ§ГўГҐГ¤ГҐГ­ГЁГҐ Г·ГЁГ±ГҐГ« B ГЁ A: %+d\nГ—Г Г±ГІГ­Г®ГҐ Г·ГЁГ±ГҐГ« B ГЁ A: %+d\nГЋГ±ГІГ ГІГ®ГЄ Г®ГІ Г¤ГҐГ«ГҐГ­ГЁГї B Г­Г  A: %+d",num2+num,num2-num,num2*num,num2/num,num2%num);
 }
 int inches_to_centimeters()
 {
 	int inch,inchi,inchs;
 	float result,result2,result3;
-	printf("Введите значение в дюймах (англ): ");
+	printf("Г‚ГўГҐГ¤ГЁГІГҐ Г§Г­Г Г·ГҐГ­ГЁГҐ Гў Г¤ГѕГ©Г¬Г Гµ (Г Г­ГЈГ«): ");
 	scanf("%d", &inch);
-	printf("Введите значение в дюймах (исп): ");
+	printf("Г‚ГўГҐГ¤ГЁГІГҐ Г§Г­Г Г·ГҐГ­ГЁГҐ Гў Г¤ГѕГ©Г¬Г Гµ (ГЁГ±ГЇ): ");
 	scanf("%d", &inchi);
-	printf("Введите значение в дюймах (старолит): ");
+	printf("Г‚ГўГҐГ¤ГЁГІГҐ Г§Г­Г Г·ГҐГ­ГЁГҐ Гў Г¤ГѕГ©Г¬Г Гµ (Г±ГІГ Г°Г®Г«ГЁГІ): ");
 	scanf("%d", &inchs);
 	
 	result =D *inch;
 	result2 = I * inchi;
 	result3 = S * inchs;
-	printf("%d дюймов (английских) - это %.1f см\n",inch,result);
-	printf("%d дюймов (испанских) - это %.1f см\n", inchi, result2);
-	printf("%d дюймов (старолитовских) - это %.1f см\n", inchs, result3);
+	printf("%d Г¤ГѕГ©Г¬Г®Гў (Г Г­ГЈГ«ГЁГ©Г±ГЄГЁГµ) - ГЅГІГ® %.1f Г±Г¬\n",inch,result);
+	printf("%d Г¤ГѕГ©Г¬Г®Гў (ГЁГ±ГЇГ Г­Г±ГЄГЁГµ) - ГЅГІГ® %.1f Г±Г¬\n", inchi, result2);
+	printf("%d Г¤ГѕГ©Г¬Г®Гў (Г±ГІГ Г°Г®Г«ГЁГІГ®ГўГ±ГЄГЁГµ) - ГЅГІГ® %.1f Г±Г¬\n", inchs, result3);
 
 }
 
@@ -43,7 +44,6 @@ int table()
 }
 int main()
 {
-	setlocale(LC_CTYPE, "RUS");
 	//calculator();
 	//inches_to_centimeters();
 }
