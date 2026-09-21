@@ -1,0 +1,49 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="Страница-1" id="of8Y5HO5l1E3TXiGsg-9">
+    <mxGraphModel dx="1414" dy="754" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="light-dark(#FFFFFF,#FFFFFF)" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="3zVVZiElZVq4GOUR6Gm2-1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#182E3E;strokeColor=#FFFFFF;fontColor=#FFFFFF;" value="Начало" vertex="1">
+          <mxGeometry height="60" width="120" x="354" y="70" as="geometry" />
+        </mxCell>
+        <mxCell id="3zVVZiElZVq4GOUR6Gm2-2" parent="1" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;shapeInside=1;fixedSize=1;labelBackgroundColor=none;fillColor=#182E3E;strokeColor=#FFFFFF;fontColor=#FFFFFF;" value="m1,m2,r&lt;div&gt;&lt;br/&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="354" y="180" as="geometry" />
+        </mxCell>
+        <mxCell id="3zVVZiElZVq4GOUR6Gm2-3" parent="1" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#FFFFFF;fontColor=#FFFFFF;fillColor=#182E3E;" value="F= G * m1 * m2 / (r*r)" vertex="1">
+          <mxGeometry height="60" width="220" x="304" y="290" as="geometry" />
+        </mxCell>
+        <mxCell id="3zVVZiElZVq4GOUR6Gm2-4" parent="1" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;shapeInside=1;fixedSize=1;strokeColor=#FFFFFF;fontColor=#FFFFFF;fillColor=#182E3E;" value="F" vertex="1">
+          <mxGeometry height="60" width="120" x="354" y="400" as="geometry" />
+        </mxCell>
+        <mxCell id="3zVVZiElZVq4GOUR6Gm2-5" parent="1" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#FFFFFF;fontColor=#FFFFFF;fillColor=#182E3E;" value="Конец" vertex="1">
+          <mxGeometry height="60" width="120" x="354" y="510" as="geometry" />
+        </mxCell>
+        <mxCell id="3zVVZiElZVq4GOUR6Gm2-6" edge="1" parent="1" source="3zVVZiElZVq4GOUR6Gm2-1" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;strokeColor=#23445D;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fillColor=default;" target="3zVVZiElZVq4GOUR6Gm2-2" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="410" y="130" as="sourcePoint" />
+            <mxPoint x="460" y="80" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3zVVZiElZVq4GOUR6Gm2-7" edge="1" parent="1" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;strokeColor=#23445D;fillColor=default;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="3zVVZiElZVq4GOUR6Gm2-3" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="414" y="240" as="sourcePoint" />
+            <mxPoint x="464" y="190" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3zVVZiElZVq4GOUR6Gm2-8" edge="1" parent="1" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;strokeColor=#23445D;fillColor=default;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="3zVVZiElZVq4GOUR6Gm2-4" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="414" y="350" as="sourcePoint" />
+            <mxPoint x="464" y="300" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3zVVZiElZVq4GOUR6Gm2-9" edge="1" parent="1" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;strokeColor=#23445D;fillColor=default;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="3zVVZiElZVq4GOUR6Gm2-5" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="414" y="460" as="sourcePoint" />
+            <mxPoint x="464" y="410" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
